@@ -54,7 +54,7 @@ jobs:
         pipeline-results-json: results.json
     - uses: github/codeql-action/upload-sarif@v2
       with: 
-        checkout_path: appsec-devops/upload-and-scan 
+        checkout_path: github/appsec-devops/upload-and-scan 
         # Path to SARIF file relative to the root of the repository
         sarif_file: veracode-results.sarif
     
